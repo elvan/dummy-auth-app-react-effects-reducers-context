@@ -4,7 +4,7 @@ export const LOCAL_STORAGE_KEY = 'dummy-auth-app-react-is-logged-in';
 
 const AuthContext = createContext({
   isLoggedIn: false,
-  onLogin: () => {},
+  onLogin: (_email, _password) => {},
   onLogout: () => {}
 });
 
